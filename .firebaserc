@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "string-interpolation-227a7": {
+      "hosting": {
+        "my-dream-app": [
+          "string-interpolation-227a7"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "string-interpolation-227a7"
+  }
+}
