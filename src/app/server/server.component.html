@@ -1,4 +1,6 @@
-<section style="background-color: blue;">
+<section [ngStyle]="{backgroundColor: getColor()}" 
+[ngClass]="{online: serverStatus === 'online'}"
+style="background-color: blue;">
     <h1 style="color: beige;">Server component</h1>
     <p>{{ 'Server' }} with ID {{ serverId }} is {{ getServerStatus() }}.</p>
 </section>
